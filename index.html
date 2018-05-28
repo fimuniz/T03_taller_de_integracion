@@ -86,8 +86,7 @@
             })
             var mensaje = airports[object].name + '<br/>'+
             airports[object].city + '<br/>'+
-            airports[object].country + '<br/>'+
-            airports[object].country_code + '<br/>'+
+            airports[object].country + ', ' + airports[object].country_code + '<br/>'+
             airports[object].airport_code
             addInfoWindow(marker, mensaje)
             airport_markers[object] = marker
